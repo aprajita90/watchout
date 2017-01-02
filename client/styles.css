@@ -1,5 +1,64 @@
-/* your beautiful css styling goes here! */
+/*/*/*/* your beautiful css styling goes here! */
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+/*!
+ * Bootstrap v2.0.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+	 body {
+        background: url('bo_play.png');
 
+      }
+
+      .container {
+        position: relative;
+        box-shadow: 0px 0px 10px rgba(0,0,0,1);
+        width: 700px;
+      }
+
+      #scores {
+        padding: 10px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        background: #ddd;
+        text-align: right;
+        border-radius: 3px;
+      }
+      #scores span {
+        display: inline-block;
+        width: 50px;
+      }
+      .container {
+        background: white;
+        padding: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .rule line {
+        stroke: #eee;
+        shape-rendering: crispEdges;
+      }
+
+      .rule line.axis {
+        stroke: #000;
+      }
+
+      .area {
+        fill: lightsteelblue;
+      }
+
+      .line, circle.area {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+      }
+
+      circle.area {
+        fill: #fff;
+      }
